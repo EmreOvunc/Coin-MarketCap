@@ -28,6 +28,8 @@ dogecoin_flag        = 1
 lisk_flag            = 1
 stratis_flag         = 1
 
+timing = 1200 
+
 total = bitcoin_flag + bitcoin_cash_flag + ripple_flag + dash_flag + bitcoin_gold_flag +\
         litecoin_flag + iota_flag + monero_flag + cardano_flag + eth_classic_flag +\
         neo_flag + nem_flag + eos_flag + stellar_lumens_flag + zcash_flag + dogecoin_flag +\
@@ -288,4 +290,4 @@ while True:
         while coin_queue.qsize():
             coin_queue.get()
 
-    sleep(5)
+    sleep(int(timing))
