@@ -7,4 +7,4 @@ It sends market cap informations to your mail address.<br />
 ** mailutils <br />
 
 
-![alt tag](https://s7.postimg.org/5sf9bhebf/Coin-_Market_Cap.jpg)
+![alt tag](https://emreovunc.com/projects/Coin-MarketCap.jpeg)
